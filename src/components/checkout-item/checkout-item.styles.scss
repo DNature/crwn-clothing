@@ -24,6 +24,32 @@
   }
 
   .quantity {
-    padding: 20px;
+    display: flex;
+
+    .arrow {
+      cursor: pointer;
+    }
+
+    .value {
+      margin: 0 10px;
+    }
+  }
+
+  .remove-button {
+    cursor: pointer;
+    position: relative;
+
+    .icon-text {
+      visibility: hidden;
+      position: absolute;
+      top: 25px;
+      font-size: 13px;
+    }
+
+    &:hover {
+      .icon-text {
+        visibility: visible;
+      }
+    }
   }
 }

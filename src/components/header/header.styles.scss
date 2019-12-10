@@ -24,3 +24,19 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    margin: 0 auto 60px auto;
+
+    .logo-container {
+      margin: auto;
+    }
+
+    .options {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
